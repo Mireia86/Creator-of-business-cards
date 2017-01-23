@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jQuery exercise</title>
+  <link rel="stylesheet" type="text/css" href="prueba2.css">
+
+</head>
+<body>
+  <h1>Business Card Builder</h1>
+  <form>
+    <input type="text" class="nombre" name="name" placeholder="Name">
+    <input type="text" class="trabajo" name="job-title" placeholder="Job title">
+    <input type="text" class="telefono" name="phone" placeholder="Phone">
+    <input type="text" class="mail" name="email" placeholder="Email">
+    <button id="submit">Submit</button>
+    <div class="colours">
+      <button class="blue">Blue</button>
+      <button class="yellow">Yellow</button>
+    </div>
+  </form>
+
+  <div class="biz-card">
+    <div class="heading">
+      <p id="name">Sharon Kennedy</p>
+      <p id="job-title">Professional Trapeze Artist</p>
+    </div>
+    <div class="contact">
+      <ul>
+        <li id="phone">694 37 28 02</li>
+        <li id="email" class="right-align"><a href="mailto: hi@example.com">hi@exaple.com </a> sharon@ironhack.com</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="prueba2.js"></script>
+</body>
+</html>
